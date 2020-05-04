@@ -11,7 +11,10 @@ In this model, the following distribution in the time step was used (no symmetri
 </a>
 </pre>
 
-G - current Gaussian value, bn - B-spline
+𝜔1 − 𝑤𝑎𝑣𝑒_𝑠𝑖𝑧𝑒
+𝜔2 − 𝑤𝑖𝑛𝑑_𝑎𝑙𝑖𝑔𝑚𝑒𝑛𝑡
+𝜔3 − 𝑤𝑎𝑣𝑒_𝑠𝑝𝑒𝑒𝑑
+𝐴 ∈ [𝑚𝑖𝑛𝐴, 𝑚𝑎𝑥𝐴] − wave amplitude (gaussian magnitude)
 
 The last series component specifies the distribution of small waves, subject to the boundary conditions for the Herterstern wave, this function is periodic.
 
